@@ -1,0 +1,11 @@
+.task-item{
+    border: 1px solid grey;
+    border-radius:8px;
+    box-sizing: border-box;
+}
+
+.reminder{
+    border-left-width: 10px;
+    border-left-color: green;
+
+}
