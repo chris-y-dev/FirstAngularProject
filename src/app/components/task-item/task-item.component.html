@@ -1,6 +1,6 @@
 <div 
     class="container p-3 m-3 task-item" 
-    [ngClass]="{reminder: task.reminder}">
+    [ngClass]="{reminder: task.reminder}" (dblclick)="onToggle(task)">
     <div class="row justify-items-around">
         <div [ngStyle]="{'width':'90%'}">
             <h3>{{ task.text }}</h3>
@@ -8,7 +8,7 @@
         <fa-icon 
             (click)="onDelete(task)" 
             [icon]="faTimes" 
-            [ngStyle]="{ 'color': 'red', 'width':'10%'}"></fa-icon>
+            class="deleteIcon"></fa-icon>
     </div>
     <p>{{ task.day }}</p>
 </div>

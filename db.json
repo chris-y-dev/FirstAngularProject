@@ -1,12 +1,6 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "text": "Match",
-      "day": "Tuesday 19th July at 2:00pm",
-      "reminder": true
-    },
-    {
       "id": 2,
       "text": "Office visit",
       "day": "Wednesday 20th July at 10:00am",
@@ -16,13 +10,31 @@
       "id": 3,
       "text": "Dinner",
       "day": "Friday 22th July at 7:00pm",
-      "reminder": true
+      "reminder": false
     },
     {
       "id": 4,
       "text": "Travel",
       "day": "Monday 25th July at 10:00am",
-      "reminder": true
+      "reminder": false
+    },
+    {
+      "text": "Phone call",
+      "day": "Tuesday 18th July 12pm",
+      "reminder": true,
+      "id": 5
+    },
+    {
+      "text": "MT phone text/call",
+      "day": "Tuesday Morning 10am",
+      "reminder": true,
+      "id": 6
+    },
+    {
+      "text": "Try carousel form",
+      "day": "This whole week",
+      "reminder": false,
+      "id": 7
     }
   ]
 }
